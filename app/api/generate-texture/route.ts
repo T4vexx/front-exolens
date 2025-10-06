@@ -273,7 +273,7 @@ function buildTexturePrompt(params: {
     : "with moderate-scale surface features and varied topography"
 
   // Prompt final atualizado com a temperatura correta
-const fullPrompt = `Realistic flat texture map of a ${baseDescription}, designed for 3D sphere wrapping.
+const fullPrompt = `Realistic flat texture map of a ${baseDescription}, designed for 3D sphere wrapping. 
 
 FORMAT: Seamless, tileable, SQUARE 2D texture map (1:1 aspect ratio). The texture MUST be designed so the left edge connects perfectly to the right edge to allow for horizontal repeating.
 
